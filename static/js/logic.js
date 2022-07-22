@@ -25,13 +25,13 @@ async function main() {
           color = '	#FF99CC';
           break;
         case (mag > 3):
-          color = 	"#99CC00";
+          color = 	"#FF9900";
           break;
         case (mag > 2):
-          color = "#FF9900";
+          color = "#FFCC00";
           break;
         case (mag > 1):
-          color = "#FFCC00";
+          color = "##99CC00";
         default:
           color = "#CCFFCC";
       }
@@ -91,9 +91,9 @@ async function main() {
       var grades = [0, 1, 2, 3, 4, 5];
       var colors = [
         "#CCFFCC",
+        "#99CC00",
         "#FFCC00",
         "#FF9900",
-        "#99CC00",
         "#FF99CC",
         "#800000"
       ];
